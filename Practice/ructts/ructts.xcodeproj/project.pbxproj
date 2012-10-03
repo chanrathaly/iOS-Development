@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180BBF4D160AAB9500BBF2E5 /* EmployeeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BBF4B160AAB9500BBF2E5 /* EmployeeController.m */; };
+		180BBF4E160AAB9500BBF2E5 /* EmployeeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180BBF4C160AAB9500BBF2E5 /* EmployeeController.xib */; };
+		180BBF63160B1DA300BBF2E5 /* Screen Shot 2012-09-20 at 4.44.04 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 180BBF62160B1DA300BBF2E5 /* Screen Shot 2012-09-20 at 4.44.04 PM.png */; };
+		18289B921613E77D00FC6608 /* ActionPlanDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289B901613E77D00FC6608 /* ActionPlanDetailViewController.m */; };
+		18289B931613E77D00FC6608 /* ActionPlanDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289B911613E77D00FC6608 /* ActionPlanDetailViewController.xib */; };
+		18289B981613F0E200FC6608 /* EditActionPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289B961613F0E200FC6608 /* EditActionPlanViewController.m */; };
+		18289B991613F0E200FC6608 /* EditActionPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289B971613F0E200FC6608 /* EditActionPlanViewController.xib */; };
+		18289B9D161405FA00FC6608 /* ProblemCommentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289B9B161405F900FC6608 /* ProblemCommentDetailViewController.m */; };
+		18289B9E161405FA00FC6608 /* ProblemCommentDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289B9C161405FA00FC6608 /* ProblemCommentDetailViewController.xib */; };
+		18289BA21614087200FC6608 /* EditProComViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BA01614087100FC6608 /* EditProComViewController.m */; };
+		18289BA31614087200FC6608 /* EditProComViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BA11614087100FC6608 /* EditProComViewController.xib */; };
+		18289BA716140DA300FC6608 /* SuggestionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BA516140DA200FC6608 /* SuggestionDetailViewController.m */; };
+		18289BA816140DA300FC6608 /* SuggestionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BA616140DA300FC6608 /* SuggestionDetailViewController.xib */; };
+		18289BAC16140FD800FC6608 /* EditSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BAA16140FD700FC6608 /* EditSuggestionViewController.m */; };
+		18289BAD16140FD800FC6608 /* EditSuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BAB16140FD700FC6608 /* EditSuggestionViewController.xib */; };
+		18289BB11614102400FC6608 /* AddSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BAF1614102300FC6608 /* AddSuggestionViewController.m */; };
+		18289BB21614102400FC6608 /* AddSuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BB01614102400FC6608 /* AddSuggestionViewController.xib */; };
+		18289BB7161429E000FC6608 /* AddDeptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BB5161429E000FC6608 /* AddDeptViewController.m */; };
+		18289BB8161429E000FC6608 /* AddDeptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BB6161429E000FC6608 /* AddDeptViewController.xib */; };
+		18289BBC1614390400FC6608 /* EditDepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BBA1614390300FC6608 /* EditDepViewController.m */; };
+		18289BBD1614390400FC6608 /* EditDepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BBB1614390400FC6608 /* EditDepViewController.xib */; };
+		18289BC1161439BF00FC6608 /* DepDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BBF161439BE00FC6608 /* DepDetailViewController.m */; };
+		18289BC2161439BF00FC6608 /* DepDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BC0161439BF00FC6608 /* DepDetailViewController.xib */; };
+		18289BC616143F4F00FC6608 /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BC416143F4E00FC6608 /* TeamDetailViewController.m */; };
+		18289BC716143F4F00FC6608 /* TeamDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BC516143F4F00FC6608 /* TeamDetailViewController.xib */; };
+		18289BCB16143F5E00FC6608 /* AddTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BC916143F5E00FC6608 /* AddTeamViewController.m */; };
+		18289BCC16143F5E00FC6608 /* AddTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BCA16143F5E00FC6608 /* AddTeamViewController.xib */; };
+		18289BD016143F6700FC6608 /* EditTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18289BCE16143F6600FC6608 /* EditTeamViewController.m */; };
+		18289BD116143F6700FC6608 /* EditTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18289BCF16143F6600FC6608 /* EditTeamViewController.xib */; };
+		182FAE161612994D00B25194 /* ActionDoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE141612994D00B25194 /* ActionDoneViewController.m */; };
+		182FAE171612994D00B25194 /* ActionDoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE151612994D00B25194 /* ActionDoneViewController.xib */; };
+		182FAE1B1612995B00B25194 /* ActionPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE191612995B00B25194 /* ActionPlanViewController.m */; };
+		182FAE1C1612995B00B25194 /* ActionPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE1A1612995B00B25194 /* ActionPlanViewController.xib */; };
+		182FAE201612996D00B25194 /* ProblemCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE1E1612996D00B25194 /* ProblemCommentViewController.m */; };
+		182FAE211612996D00B25194 /* ProblemCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE1F1612996D00B25194 /* ProblemCommentViewController.xib */; };
+		182FAE251612997A00B25194 /* SuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE231612997A00B25194 /* SuggestionViewController.m */; };
+		182FAE261612997A00B25194 /* SuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE241612997A00B25194 /* SuggestionViewController.xib */; };
+		182FAE2A1612998A00B25194 /* DepartmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE281612998A00B25194 /* DepartmentViewController.m */; };
+		182FAE2B1612998A00B25194 /* DepartmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE291612998A00B25194 /* DepartmentViewController.xib */; };
+		182FAE30161299A600B25194 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE2E161299A600B25194 /* TeamViewController.m */; };
+		182FAE31161299A600B25194 /* TeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE2F161299A600B25194 /* TeamViewController.xib */; };
+		182FAE351612B36A00B25194 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE331612B36A00B25194 /* ReportViewController.m */; };
+		182FAE361612B36A00B25194 /* ReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE341612B36A00B25194 /* ReportViewController.xib */; };
+		182FAE3A1612C1E200B25194 /* AddActionDoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE381612C1E100B25194 /* AddActionDoneViewController.m */; };
+		182FAE3B1612C1E200B25194 /* AddActionDoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE391612C1E100B25194 /* AddActionDoneViewController.xib */; };
+		182FAE3F1612C42100B25194 /* AddActionPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3D1612C41F00B25194 /* AddActionPlanViewController.m */; };
+		182FAE401612C42100B25194 /* AddActionPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE3E1612C42000B25194 /* AddActionPlanViewController.xib */; };
+		182FAE441612C59200B25194 /* AddProblemCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE421612C59100B25194 /* AddProblemCommentViewController.m */; };
+		182FAE451612C59200B25194 /* AddProblemCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE431612C59100B25194 /* AddProblemCommentViewController.xib */; };
+		182FAE491612ED5500B25194 /* ActionDoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE471612ED5300B25194 /* ActionDoneDetailViewController.m */; };
+		182FAE4A1612ED5500B25194 /* ActionDoneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE481612ED5400B25194 /* ActionDoneDetailViewController.xib */; };
+		182FAE4E1613001200B25194 /* EditActionDoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE4C1613001000B25194 /* EditActionDoneViewController.m */; };
+		182FAE4F1613001200B25194 /* EditActionDoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182FAE4D1613001100B25194 /* EditActionDoneViewController.xib */; };
+		18361CC1160BFE9F0030A48B /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18361CBF160BFE9F0030A48B /* MenuController.m */; };
+		18361CC2160BFE9F0030A48B /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18361CC0160BFE9F0030A48B /* MenuController.xib */; };
+		18361CC6160C0DE60030A48B /* EmployeeDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18361CC4160C0DE60030A48B /* EmployeeDetailController.m */; };
+		18361CC7160C0DE60030A48B /* EmployeeDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18361CC5160C0DE60030A48B /* EmployeeDetailController.xib */; };
+		18361CCF160C19BF0030A48B /* EditEmployeeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18361CCD160C19BF0030A48B /* EditEmployeeController.m */; };
+		18361CD0160C19BF0030A48B /* EditEmployeeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18361CCE160C19BF0030A48B /* EditEmployeeController.xib */; };
+		1836B18B1609C7C400128C6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1836B18A1609C7C400128C6D /* UIKit.framework */; };
+		1836B18D1609C7C400128C6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1836B18C1609C7C400128C6D /* Foundation.framework */; };
+		1836B18F1609C7C400128C6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1836B18E1609C7C400128C6D /* CoreGraphics.framework */; };
+		1836B1951609C7C400128C6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1836B1931609C7C400128C6D /* InfoPlist.strings */; };
+		1836B1971609C7C400128C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836B1961609C7C400128C6D /* main.m */; };
+		1836B19B1609C7C400128C6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836B19A1609C7C400128C6D /* AppDelegate.m */; };
+		1836B19E1609C7C400128C6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836B19D1609C7C400128C6D /* ViewController.m */; };
+		1836B1A11609C7C500128C6D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1836B19F1609C7C500128C6D /* ViewController.xib */; };
+		183DF77C161147F5007BA22C /* AddEmployeeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DF77A161147F5007BA22C /* AddEmployeeController.m */; };
+		183DF77D161147F5007BA22C /* AddEmployeeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183DF77B161147F5007BA22C /* AddEmployeeController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180BBF4A160AAB9500BBF2E5 /* EmployeeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeController.h; sourceTree = "<group>"; };
+		180BBF4B160AAB9500BBF2E5 /* EmployeeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeController.m; sourceTree = "<group>"; };
+		180BBF4C160AAB9500BBF2E5 /* EmployeeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeController.xib; sourceTree = "<group>"; };
+		180BBF62160B1DA300BBF2E5 /* Screen Shot 2012-09-20 at 4.44.04 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2012-09-20 at 4.44.04 PM.png"; sourceTree = "<group>"; };
+		18289B8F1613E77D00FC6608 /* ActionPlanDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionPlanDetailViewController.h; sourceTree = "<group>"; };
+		18289B901613E77D00FC6608 /* ActionPlanDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionPlanDetailViewController.m; sourceTree = "<group>"; };
+		18289B911613E77D00FC6608 /* ActionPlanDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionPlanDetailViewController.xib; sourceTree = "<group>"; };
+		18289B951613F0E200FC6608 /* EditActionPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditActionPlanViewController.h; sourceTree = "<group>"; };
+		18289B961613F0E200FC6608 /* EditActionPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditActionPlanViewController.m; sourceTree = "<group>"; };
+		18289B971613F0E200FC6608 /* EditActionPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditActionPlanViewController.xib; sourceTree = "<group>"; };
+		18289B9A161405F900FC6608 /* ProblemCommentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemCommentDetailViewController.h; sourceTree = "<group>"; };
+		18289B9B161405F900FC6608 /* ProblemCommentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemCommentDetailViewController.m; sourceTree = "<group>"; };
+		18289B9C161405FA00FC6608 /* ProblemCommentDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProblemCommentDetailViewController.xib; sourceTree = "<group>"; };
+		18289B9F1614087000FC6608 /* EditProComViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProComViewController.h; sourceTree = "<group>"; };
+		18289BA01614087100FC6608 /* EditProComViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProComViewController.m; sourceTree = "<group>"; };
+		18289BA11614087100FC6608 /* EditProComViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditProComViewController.xib; sourceTree = "<group>"; };
+		18289BA416140DA200FC6608 /* SuggestionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionDetailViewController.h; sourceTree = "<group>"; };
+		18289BA516140DA200FC6608 /* SuggestionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionDetailViewController.m; sourceTree = "<group>"; };
+		18289BA616140DA300FC6608 /* SuggestionDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuggestionDetailViewController.xib; sourceTree = "<group>"; };
+		18289BA916140FD600FC6608 /* EditSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditSuggestionViewController.h; sourceTree = "<group>"; };
+		18289BAA16140FD700FC6608 /* EditSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditSuggestionViewController.m; sourceTree = "<group>"; };
+		18289BAB16140FD700FC6608 /* EditSuggestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditSuggestionViewController.xib; sourceTree = "<group>"; };
+		18289BAE1614102300FC6608 /* AddSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSuggestionViewController.h; sourceTree = "<group>"; };
+		18289BAF1614102300FC6608 /* AddSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSuggestionViewController.m; sourceTree = "<group>"; };
+		18289BB01614102400FC6608 /* AddSuggestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddSuggestionViewController.xib; sourceTree = "<group>"; };
+		18289BB4161429E000FC6608 /* AddDeptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDeptViewController.h; sourceTree = "<group>"; };
+		18289BB5161429E000FC6608 /* AddDeptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDeptViewController.m; sourceTree = "<group>"; };
+		18289BB6161429E000FC6608 /* AddDeptViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDeptViewController.xib; sourceTree = "<group>"; };
+		18289BB91614390300FC6608 /* EditDepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDepViewController.h; sourceTree = "<group>"; };
+		18289BBA1614390300FC6608 /* EditDepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDepViewController.m; sourceTree = "<group>"; };
+		18289BBB1614390400FC6608 /* EditDepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditDepViewController.xib; sourceTree = "<group>"; };
+		18289BBE161439BE00FC6608 /* DepDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepDetailViewController.h; sourceTree = "<group>"; };
+		18289BBF161439BE00FC6608 /* DepDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepDetailViewController.m; sourceTree = "<group>"; };
+		18289BC0161439BF00FC6608 /* DepDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepDetailViewController.xib; sourceTree = "<group>"; };
+		18289BC316143F4E00FC6608 /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
+		18289BC416143F4E00FC6608 /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
+		18289BC516143F4F00FC6608 /* TeamDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamDetailViewController.xib; sourceTree = "<group>"; };
+		18289BC816143F5D00FC6608 /* AddTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTeamViewController.h; sourceTree = "<group>"; };
+		18289BC916143F5E00FC6608 /* AddTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTeamViewController.m; sourceTree = "<group>"; };
+		18289BCA16143F5E00FC6608 /* AddTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTeamViewController.xib; sourceTree = "<group>"; };
+		18289BCD16143F6500FC6608 /* EditTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTeamViewController.h; sourceTree = "<group>"; };
+		18289BCE16143F6600FC6608 /* EditTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTeamViewController.m; sourceTree = "<group>"; };
+		18289BCF16143F6600FC6608 /* EditTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditTeamViewController.xib; sourceTree = "<group>"; };
+		182FAE131612994D00B25194 /* ActionDoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDoneViewController.h; sourceTree = "<group>"; };
+		182FAE141612994D00B25194 /* ActionDoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionDoneViewController.m; sourceTree = "<group>"; };
+		182FAE151612994D00B25194 /* ActionDoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionDoneViewController.xib; sourceTree = "<group>"; };
+		182FAE181612995B00B25194 /* ActionPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionPlanViewController.h; sourceTree = "<group>"; };
+		182FAE191612995B00B25194 /* ActionPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionPlanViewController.m; sourceTree = "<group>"; };
+		182FAE1A1612995B00B25194 /* ActionPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionPlanViewController.xib; sourceTree = "<group>"; };
+		182FAE1D1612996D00B25194 /* ProblemCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemCommentViewController.h; sourceTree = "<group>"; };
+		182FAE1E1612996D00B25194 /* ProblemCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemCommentViewController.m; sourceTree = "<group>"; };
+		182FAE1F1612996D00B25194 /* ProblemCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProblemCommentViewController.xib; sourceTree = "<group>"; };
+		182FAE221612997A00B25194 /* SuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionViewController.h; sourceTree = "<group>"; };
+		182FAE231612997A00B25194 /* SuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionViewController.m; sourceTree = "<group>"; };
+		182FAE241612997A00B25194 /* SuggestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuggestionViewController.xib; sourceTree = "<group>"; };
+		182FAE271612998A00B25194 /* DepartmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentViewController.h; sourceTree = "<group>"; };
+		182FAE281612998A00B25194 /* DepartmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentViewController.m; sourceTree = "<group>"; };
+		182FAE291612998A00B25194 /* DepartmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepartmentViewController.xib; sourceTree = "<group>"; };
+		182FAE2D161299A600B25194 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		182FAE2E161299A600B25194 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		182FAE2F161299A600B25194 /* TeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamViewController.xib; sourceTree = "<group>"; };
+		182FAE321612B36900B25194 /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		182FAE331612B36A00B25194 /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		182FAE341612B36A00B25194 /* ReportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportViewController.xib; sourceTree = "<group>"; };
+		182FAE371612C1E000B25194 /* AddActionDoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddActionDoneViewController.h; sourceTree = "<group>"; };
+		182FAE381612C1E100B25194 /* AddActionDoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddActionDoneViewController.m; sourceTree = "<group>"; };
+		182FAE391612C1E100B25194 /* AddActionDoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddActionDoneViewController.xib; sourceTree = "<group>"; };
+		182FAE3C1612C41F00B25194 /* AddActionPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddActionPlanViewController.h; sourceTree = "<group>"; };
+		182FAE3D1612C41F00B25194 /* AddActionPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddActionPlanViewController.m; sourceTree = "<group>"; };
+		182FAE3E1612C42000B25194 /* AddActionPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddActionPlanViewController.xib; sourceTree = "<group>"; };
+		182FAE411612C59000B25194 /* AddProblemCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProblemCommentViewController.h; sourceTree = "<group>"; };
+		182FAE421612C59100B25194 /* AddProblemCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProblemCommentViewController.m; sourceTree = "<group>"; };
+		182FAE431612C59100B25194 /* AddProblemCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddProblemCommentViewController.xib; sourceTree = "<group>"; };
+		182FAE461612ED5300B25194 /* ActionDoneDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDoneDetailViewController.h; sourceTree = "<group>"; };
+		182FAE471612ED5300B25194 /* ActionDoneDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionDoneDetailViewController.m; sourceTree = "<group>"; };
+		182FAE481612ED5400B25194 /* ActionDoneDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionDoneDetailViewController.xib; sourceTree = "<group>"; };
+		182FAE4B1613000F00B25194 /* EditActionDoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditActionDoneViewController.h; sourceTree = "<group>"; };
+		182FAE4C1613001000B25194 /* EditActionDoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditActionDoneViewController.m; sourceTree = "<group>"; };
+		182FAE4D1613001100B25194 /* EditActionDoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditActionDoneViewController.xib; sourceTree = "<group>"; };
+		18361CBE160BFE9F0030A48B /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		18361CBF160BFE9F0030A48B /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
+		18361CC0160BFE9F0030A48B /* MenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
+		18361CC3160C0DE60030A48B /* EmployeeDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDetailController.h; sourceTree = "<group>"; };
+		18361CC4160C0DE60030A48B /* EmployeeDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetailController.m; sourceTree = "<group>"; };
+		18361CC5160C0DE60030A48B /* EmployeeDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeDetailController.xib; sourceTree = "<group>"; };
+		18361CCC160C19BF0030A48B /* EditEmployeeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditEmployeeController.h; sourceTree = "<group>"; };
+		18361CCD160C19BF0030A48B /* EditEmployeeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditEmployeeController.m; sourceTree = "<group>"; };
+		18361CCE160C19BF0030A48B /* EditEmployeeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditEmployeeController.xib; sourceTree = "<group>"; };
+		1836B1861609C7C400128C6D /* ructts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ructts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1836B18A1609C7C400128C6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1836B18C1609C7C400128C6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1836B18E1609C7C400128C6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1836B1921609C7C400128C6D /* ructts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ructts-Info.plist"; sourceTree = "<group>"; };
+		1836B1941609C7C400128C6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1836B1961609C7C400128C6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1836B1981609C7C400128C6D /* ructts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ructts-Prefix.pch"; sourceTree = "<group>"; };
+		1836B1991609C7C400128C6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1836B19A1609C7C400128C6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1836B19C1609C7C400128C6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1836B19D1609C7C400128C6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1836B1A01609C7C500128C6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1836B1A81609CA3C00128C6D /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		183DF779161147F5007BA22C /* AddEmployeeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEmployeeController.h; sourceTree = "<group>"; };
+		183DF77A161147F5007BA22C /* AddEmployeeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEmployeeController.m; sourceTree = "<group>"; };
+		183DF77B161147F5007BA22C /* AddEmployeeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEmployeeController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1836B1831609C7C400128C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836B18B1609C7C400128C6D /* UIKit.framework in Frameworks */,
+				1836B18D1609C7C400128C6D /* Foundation.framework in Frameworks */,
+				1836B18F1609C7C400128C6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180BBF57160ACBBA00BBF2E5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18289BB3161427F200FC6608 /* admin */,
+				182FAE151612994D00B25194 /* ActionDoneViewController.xib */,
+				182FAE391612C1E100B25194 /* AddActionDoneViewController.xib */,
+				182FAE481612ED5400B25194 /* ActionDoneDetailViewController.xib */,
+				182FAE4D1613001100B25194 /* EditActionDoneViewController.xib */,
+				182FAE1A1612995B00B25194 /* ActionPlanViewController.xib */,
+				18289B911613E77D00FC6608 /* ActionPlanDetailViewController.xib */,
+				182FAE3E1612C42000B25194 /* AddActionPlanViewController.xib */,
+				18289B971613F0E200FC6608 /* EditActionPlanViewController.xib */,
+				18361CC0160BFE9F0030A48B /* MenuController.xib */,
+				182FAE1F1612996D00B25194 /* ProblemCommentViewController.xib */,
+				18289B9C161405FA00FC6608 /* ProblemCommentDetailViewController.xib */,
+				182FAE431612C59100B25194 /* AddProblemCommentViewController.xib */,
+				18289BA11614087100FC6608 /* EditProComViewController.xib */,
+				182FAE241612997A00B25194 /* SuggestionViewController.xib */,
+				18289BB01614102400FC6608 /* AddSuggestionViewController.xib */,
+				18289BA616140DA300FC6608 /* SuggestionDetailViewController.xib */,
+				18289BAB16140FD700FC6608 /* EditSuggestionViewController.xib */,
+				1836B19F1609C7C500128C6D /* ViewController.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		180BBF58160ACBD900BBF2E5 /* webroot */ = {
+			isa = PBXGroup;
+			children = (
+				180BBF61160B1D1900BBF2E5 /* img */,
+				1836B1A81609CA3C00128C6D /* Constant.h */,
+			);
+			name = webroot;
+			sourceTree = "<group>";
+		};
+		180BBF61160B1D1900BBF2E5 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				180BBF62160B1DA300BBF2E5 /* Screen Shot 2012-09-20 at 4.44.04 PM.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		18289BB3161427F200FC6608 /* admin */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE341612B36A00B25194 /* ReportViewController.xib */,
+				182FAE291612998A00B25194 /* DepartmentViewController.xib */,
+				18289BB6161429E000FC6608 /* AddDeptViewController.xib */,
+				18289BC0161439BF00FC6608 /* DepDetailViewController.xib */,
+				18289BBB1614390400FC6608 /* EditDepViewController.xib */,
+				182FAE2F161299A600B25194 /* TeamViewController.xib */,
+				18289BC516143F4F00FC6608 /* TeamDetailViewController.xib */,
+				18289BCA16143F5E00FC6608 /* AddTeamViewController.xib */,
+				18289BCF16143F6600FC6608 /* EditTeamViewController.xib */,
+				180BBF4C160AAB9500BBF2E5 /* EmployeeController.xib */,
+				183DF77B161147F5007BA22C /* AddEmployeeController.xib */,
+				18361CC5160C0DE60030A48B /* EmployeeDetailController.xib */,
+				18361CCE160C19BF0030A48B /* EditEmployeeController.xib */,
+			);
+			name = admin;
+			sourceTree = "<group>";
+		};
+		182FAE2C1612999100B25194 /* admin */ = {
+			isa = PBXGroup;
+			children = (
+				180BBF4A160AAB9500BBF2E5 /* EmployeeController.h */,
+				180BBF4B160AAB9500BBF2E5 /* EmployeeController.m */,
+				18361CC3160C0DE60030A48B /* EmployeeDetailController.h */,
+				18361CC4160C0DE60030A48B /* EmployeeDetailController.m */,
+				18361CCC160C19BF0030A48B /* EditEmployeeController.h */,
+				18361CCD160C19BF0030A48B /* EditEmployeeController.m */,
+				183DF779161147F5007BA22C /* AddEmployeeController.h */,
+				183DF77A161147F5007BA22C /* AddEmployeeController.m */,
+				182FAE271612998A00B25194 /* DepartmentViewController.h */,
+				182FAE281612998A00B25194 /* DepartmentViewController.m */,
+				18289BB4161429E000FC6608 /* AddDeptViewController.h */,
+				18289BB5161429E000FC6608 /* AddDeptViewController.m */,
+				18289BBE161439BE00FC6608 /* DepDetailViewController.h */,
+				18289BBF161439BE00FC6608 /* DepDetailViewController.m */,
+				18289BB91614390300FC6608 /* EditDepViewController.h */,
+				18289BBA1614390300FC6608 /* EditDepViewController.m */,
+				182FAE2D161299A600B25194 /* TeamViewController.h */,
+				182FAE2E161299A600B25194 /* TeamViewController.m */,
+				18289BC316143F4E00FC6608 /* TeamDetailViewController.h */,
+				18289BC416143F4E00FC6608 /* TeamDetailViewController.m */,
+				18289BC816143F5D00FC6608 /* AddTeamViewController.h */,
+				18289BC916143F5E00FC6608 /* AddTeamViewController.m */,
+				18289BCD16143F6500FC6608 /* EditTeamViewController.h */,
+				18289BCE16143F6600FC6608 /* EditTeamViewController.m */,
+				182FAE321612B36900B25194 /* ReportViewController.h */,
+				182FAE331612B36A00B25194 /* ReportViewController.m */,
+			);
+			name = admin;
+			sourceTree = "<group>";
+		};
+		1836B17B1609C7C400128C6D = {
+			isa = PBXGroup;
+			children = (
+				1836B1901609C7C400128C6D /* ructts */,
+				1836B1891609C7C400128C6D /* Frameworks */,
+				1836B1871609C7C400128C6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1836B1871609C7C400128C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1836B1861609C7C400128C6D /* ructts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1836B1891609C7C400128C6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1836B18A1609C7C400128C6D /* UIKit.framework */,
+				1836B18C1609C7C400128C6D /* Foundation.framework */,
+				1836B18E1609C7C400128C6D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1836B1901609C7C400128C6D /* ructts */ = {
+			isa = PBXGroup;
+			children = (
+				180BBF58160ACBD900BBF2E5 /* webroot */,
+				180BBF57160ACBBA00BBF2E5 /* view */,
+				1836B1A71609C7CE00128C6D /* classes */,
+				1836B1911609C7C400128C6D /* Supporting Files */,
+			);
+			path = ructts;
+			sourceTree = "<group>";
+		};
+		1836B1911609C7C400128C6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1836B1921609C7C400128C6D /* ructts-Info.plist */,
+				1836B1931609C7C400128C6D /* InfoPlist.strings */,
+				1836B1961609C7C400128C6D /* main.m */,
+				1836B1981609C7C400128C6D /* ructts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1836B1A71609C7CE00128C6D /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE2C1612999100B25194 /* admin */,
+				1836B1991609C7C400128C6D /* AppDelegate.h */,
+				1836B19A1609C7C400128C6D /* AppDelegate.m */,
+				1836B19C1609C7C400128C6D /* ViewController.h */,
+				1836B19D1609C7C400128C6D /* ViewController.m */,
+				18361CBE160BFE9F0030A48B /* MenuController.h */,
+				18361CBF160BFE9F0030A48B /* MenuController.m */,
+				182FAE131612994D00B25194 /* ActionDoneViewController.h */,
+				182FAE141612994D00B25194 /* ActionDoneViewController.m */,
+				182FAE371612C1E000B25194 /* AddActionDoneViewController.h */,
+				182FAE381612C1E100B25194 /* AddActionDoneViewController.m */,
+				182FAE461612ED5300B25194 /* ActionDoneDetailViewController.h */,
+				182FAE471612ED5300B25194 /* ActionDoneDetailViewController.m */,
+				182FAE4B1613000F00B25194 /* EditActionDoneViewController.h */,
+				182FAE4C1613001000B25194 /* EditActionDoneViewController.m */,
+				182FAE181612995B00B25194 /* ActionPlanViewController.h */,
+				182FAE191612995B00B25194 /* ActionPlanViewController.m */,
+				18289B8F1613E77D00FC6608 /* ActionPlanDetailViewController.h */,
+				18289B901613E77D00FC6608 /* ActionPlanDetailViewController.m */,
+				182FAE3C1612C41F00B25194 /* AddActionPlanViewController.h */,
+				182FAE3D1612C41F00B25194 /* AddActionPlanViewController.m */,
+				18289B951613F0E200FC6608 /* EditActionPlanViewController.h */,
+				18289B961613F0E200FC6608 /* EditActionPlanViewController.m */,
+				182FAE1D1612996D00B25194 /* ProblemCommentViewController.h */,
+				182FAE1E1612996D00B25194 /* ProblemCommentViewController.m */,
+				18289B9A161405F900FC6608 /* ProblemCommentDetailViewController.h */,
+				18289B9B161405F900FC6608 /* ProblemCommentDetailViewController.m */,
+				182FAE411612C59000B25194 /* AddProblemCommentViewController.h */,
+				182FAE421612C59100B25194 /* AddProblemCommentViewController.m */,
+				18289B9F1614087000FC6608 /* EditProComViewController.h */,
+				18289BA01614087100FC6608 /* EditProComViewController.m */,
+				182FAE221612997A00B25194 /* SuggestionViewController.h */,
+				182FAE231612997A00B25194 /* SuggestionViewController.m */,
+				18289BAE1614102300FC6608 /* AddSuggestionViewController.h */,
+				18289BAF1614102300FC6608 /* AddSuggestionViewController.m */,
+				18289BA416140DA200FC6608 /* SuggestionDetailViewController.h */,
+				18289BA516140DA200FC6608 /* SuggestionDetailViewController.m */,
+				18289BA916140FD600FC6608 /* EditSuggestionViewController.h */,
+				18289BAA16140FD700FC6608 /* EditSuggestionViewController.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1836B1851609C7C400128C6D /* ructts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1836B1A41609C7C500128C6D /* Build configuration list for PBXNativeTarget "ructts" */;
+			buildPhases = (
+				1836B1821609C7C400128C6D /* Sources */,
+				1836B1831609C7C400128C6D /* Frameworks */,
+				1836B1841609C7C400128C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ructts;
+			productName = ructts;
+			productReference = 1836B1861609C7C400128C6D /* ructts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1836B17D1609C7C400128C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = 1836B1801609C7C400128C6D /* Build configuration list for PBXProject "ructts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1836B17B1609C7C400128C6D;
+			productRefGroup = 1836B1871609C7C400128C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1836B1851609C7C400128C6D /* ructts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1836B1841609C7C400128C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836B1951609C7C400128C6D /* InfoPlist.strings in Resources */,
+				1836B1A11609C7C500128C6D /* ViewController.xib in Resources */,
+				180BBF4E160AAB9500BBF2E5 /* EmployeeController.xib in Resources */,
+				180BBF63160B1DA300BBF2E5 /* Screen Shot 2012-09-20 at 4.44.04 PM.png in Resources */,
+				18361CC2160BFE9F0030A48B /* MenuController.xib in Resources */,
+				18361CC7160C0DE60030A48B /* EmployeeDetailController.xib in Resources */,
+				18361CD0160C19BF0030A48B /* EditEmployeeController.xib in Resources */,
+				183DF77D161147F5007BA22C /* AddEmployeeController.xib in Resources */,
+				182FAE171612994D00B25194 /* ActionDoneViewController.xib in Resources */,
+				182FAE1C1612995B00B25194 /* ActionPlanViewController.xib in Resources */,
+				182FAE211612996D00B25194 /* ProblemCommentViewController.xib in Resources */,
+				182FAE261612997A00B25194 /* SuggestionViewController.xib in Resources */,
+				182FAE2B1612998A00B25194 /* DepartmentViewController.xib in Resources */,
+				182FAE31161299A600B25194 /* TeamViewController.xib in Resources */,
+				182FAE361612B36A00B25194 /* ReportViewController.xib in Resources */,
+				182FAE3B1612C1E200B25194 /* AddActionDoneViewController.xib in Resources */,
+				182FAE401612C42100B25194 /* AddActionPlanViewController.xib in Resources */,
+				182FAE451612C59200B25194 /* AddProblemCommentViewController.xib in Resources */,
+				182FAE4A1612ED5500B25194 /* ActionDoneDetailViewController.xib in Resources */,
+				182FAE4F1613001200B25194 /* EditActionDoneViewController.xib in Resources */,
+				18289B931613E77D00FC6608 /* ActionPlanDetailViewController.xib in Resources */,
+				18289B991613F0E200FC6608 /* EditActionPlanViewController.xib in Resources */,
+				18289B9E161405FA00FC6608 /* ProblemCommentDetailViewController.xib in Resources */,
+				18289BA31614087200FC6608 /* EditProComViewController.xib in Resources */,
+				18289BA816140DA300FC6608 /* SuggestionDetailViewController.xib in Resources */,
+				18289BAD16140FD800FC6608 /* EditSuggestionViewController.xib in Resources */,
+				18289BB21614102400FC6608 /* AddSuggestionViewController.xib in Resources */,
+				18289BB8161429E000FC6608 /* AddDeptViewController.xib in Resources */,
+				18289BBD1614390400FC6608 /* EditDepViewController.xib in Resources */,
+				18289BC2161439BF00FC6608 /* DepDetailViewController.xib in Resources */,
+				18289BC716143F4F00FC6608 /* TeamDetailViewController.xib in Resources */,
+				18289BCC16143F5E00FC6608 /* AddTeamViewController.xib in Resources */,
+				18289BD116143F6700FC6608 /* EditTeamViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1836B1821609C7C400128C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836B1971609C7C400128C6D /* main.m in Sources */,
+				1836B19B1609C7C400128C6D /* AppDelegate.m in Sources */,
+				1836B19E1609C7C400128C6D /* ViewController.m in Sources */,
+				180BBF4D160AAB9500BBF2E5 /* EmployeeController.m in Sources */,
+				18361CC1160BFE9F0030A48B /* MenuController.m in Sources */,
+				18361CC6160C0DE60030A48B /* EmployeeDetailController.m in Sources */,
+				18361CCF160C19BF0030A48B /* EditEmployeeController.m in Sources */,
+				183DF77C161147F5007BA22C /* AddEmployeeController.m in Sources */,
+				182FAE161612994D00B25194 /* ActionDoneViewController.m in Sources */,
+				182FAE1B1612995B00B25194 /* ActionPlanViewController.m in Sources */,
+				182FAE201612996D00B25194 /* ProblemCommentViewController.m in Sources */,
+				182FAE251612997A00B25194 /* SuggestionViewController.m in Sources */,
+				182FAE2A1612998A00B25194 /* DepartmentViewController.m in Sources */,
+				182FAE30161299A600B25194 /* TeamViewController.m in Sources */,
+				182FAE351612B36A00B25194 /* ReportViewController.m in Sources */,
+				182FAE3A1612C1E200B25194 /* AddActionDoneViewController.m in Sources */,
+				182FAE3F1612C42100B25194 /* AddActionPlanViewController.m in Sources */,
+				182FAE441612C59200B25194 /* AddProblemCommentViewController.m in Sources */,
+				182FAE491612ED5500B25194 /* ActionDoneDetailViewController.m in Sources */,
+				182FAE4E1613001200B25194 /* EditActionDoneViewController.m in Sources */,
+				18289B921613E77D00FC6608 /* ActionPlanDetailViewController.m in Sources */,
+				18289B981613F0E200FC6608 /* EditActionPlanViewController.m in Sources */,
+				18289B9D161405FA00FC6608 /* ProblemCommentDetailViewController.m in Sources */,
+				18289BA21614087200FC6608 /* EditProComViewController.m in Sources */,
+				18289BA716140DA300FC6608 /* SuggestionDetailViewController.m in Sources */,
+				18289BAC16140FD800FC6608 /* EditSuggestionViewController.m in Sources */,
+				18289BB11614102400FC6608 /* AddSuggestionViewController.m in Sources */,
+				18289BB7161429E000FC6608 /* AddDeptViewController.m in Sources */,
+				18289BBC1614390400FC6608 /* EditDepViewController.m in Sources */,
+				18289BC1161439BF00FC6608 /* DepDetailViewController.m in Sources */,
+				18289BC616143F4F00FC6608 /* TeamDetailViewController.m in Sources */,
+				18289BCB16143F5E00FC6608 /* AddTeamViewController.m in Sources */,
+				18289BD016143F6700FC6608 /* EditTeamViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1836B1931609C7C400128C6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1836B1941609C7C400128C6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1836B19F1609C7C500128C6D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1836B1A01609C7C500128C6D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1836B1A21609C7C500128C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1836B1A31609C7C500128C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1836B1A51609C7C500128C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ructts/ructts-Prefix.pch";
+				INFOPLIST_FILE = "ructts/ructts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1836B1A61609C7C500128C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ructts/ructts-Prefix.pch";
+				INFOPLIST_FILE = "ructts/ructts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1836B1801609C7C400128C6D /* Build configuration list for PBXProject "ructts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1836B1A21609C7C500128C6D /* Debug */,
+				1836B1A31609C7C500128C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1836B1A41609C7C500128C6D /* Build configuration list for PBXNativeTarget "ructts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1836B1A51609C7C500128C6D /* Debug */,
+				1836B1A61609C7C500128C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1836B17D1609C7C400128C6D /* Project object */;
+}

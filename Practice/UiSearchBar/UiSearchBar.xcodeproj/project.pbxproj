@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E4C0B2161AC86000365A3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E4C0B1161AC86000365A3A /* UIKit.framework */; };
+		18E4C0B4161AC86000365A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E4C0B3161AC86000365A3A /* Foundation.framework */; };
+		18E4C0B6161AC86000365A3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E4C0B5161AC86000365A3A /* CoreGraphics.framework */; };
+		18E4C0BC161AC86000365A3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E4C0BA161AC86000365A3A /* InfoPlist.strings */; };
+		18E4C0BE161AC86000365A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4C0BD161AC86000365A3A /* main.m */; };
+		18E4C0C2161AC86000365A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4C0C1161AC86000365A3A /* AppDelegate.m */; };
+		18E4C0C5161AC86000365A3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4C0C4161AC86000365A3A /* ViewController.m */; };
+		18E4C0C8161AC86000365A3A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E4C0C6161AC86000365A3A /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18E4C0AD161AC86000365A3A /* UiSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UiSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E4C0B1161AC86000365A3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18E4C0B3161AC86000365A3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18E4C0B5161AC86000365A3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18E4C0B9161AC86000365A3A /* UiSearchBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UiSearchBar-Info.plist"; sourceTree = "<group>"; };
+		18E4C0BB161AC86000365A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18E4C0BD161AC86000365A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E4C0BF161AC86000365A3A /* UiSearchBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UiSearchBar-Prefix.pch"; sourceTree = "<group>"; };
+		18E4C0C0161AC86000365A3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E4C0C1161AC86000365A3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E4C0C3161AC86000365A3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E4C0C4161AC86000365A3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E4C0C7161AC86000365A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E4C0AA161AC86000365A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4C0B2161AC86000365A3A /* UIKit.framework in Frameworks */,
+				18E4C0B4161AC86000365A3A /* Foundation.framework in Frameworks */,
+				18E4C0B6161AC86000365A3A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E4C0A2161AC85F00365A3A = {
+			isa = PBXGroup;
+			children = (
+				18E4C0B7161AC86000365A3A /* UiSearchBar */,
+				18E4C0B0161AC86000365A3A /* Frameworks */,
+				18E4C0AE161AC86000365A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E4C0AE161AC86000365A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E4C0AD161AC86000365A3A /* UiSearchBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E4C0B0161AC86000365A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E4C0B1161AC86000365A3A /* UIKit.framework */,
+				18E4C0B3161AC86000365A3A /* Foundation.framework */,
+				18E4C0B5161AC86000365A3A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18E4C0B7161AC86000365A3A /* UiSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				18E4C0C0161AC86000365A3A /* AppDelegate.h */,
+				18E4C0C1161AC86000365A3A /* AppDelegate.m */,
+				18E4C0C3161AC86000365A3A /* ViewController.h */,
+				18E4C0C4161AC86000365A3A /* ViewController.m */,
+				18E4C0C6161AC86000365A3A /* ViewController.xib */,
+				18E4C0B8161AC86000365A3A /* Supporting Files */,
+			);
+			path = UiSearchBar;
+			sourceTree = "<group>";
+		};
+		18E4C0B8161AC86000365A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E4C0B9161AC86000365A3A /* UiSearchBar-Info.plist */,
+				18E4C0BA161AC86000365A3A /* InfoPlist.strings */,
+				18E4C0BD161AC86000365A3A /* main.m */,
+				18E4C0BF161AC86000365A3A /* UiSearchBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E4C0AC161AC86000365A3A /* UiSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E4C0CB161AC86000365A3A /* Build configuration list for PBXNativeTarget "UiSearchBar" */;
+			buildPhases = (
+				18E4C0A9161AC86000365A3A /* Sources */,
+				18E4C0AA161AC86000365A3A /* Frameworks */,
+				18E4C0AB161AC86000365A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UiSearchBar;
+			productName = UiSearchBar;
+			productReference = 18E4C0AD161AC86000365A3A /* UiSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E4C0A4161AC85F00365A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = 18E4C0A7161AC85F00365A3A /* Build configuration list for PBXProject "UiSearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18E4C0A2161AC85F00365A3A;
+			productRefGroup = 18E4C0AE161AC86000365A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E4C0AC161AC86000365A3A /* UiSearchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E4C0AB161AC86000365A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4C0BC161AC86000365A3A /* InfoPlist.strings in Resources */,
+				18E4C0C8161AC86000365A3A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E4C0A9161AC86000365A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4C0BE161AC86000365A3A /* main.m in Sources */,
+				18E4C0C2161AC86000365A3A /* AppDelegate.m in Sources */,
+				18E4C0C5161AC86000365A3A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E4C0BA161AC86000365A3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E4C0BB161AC86000365A3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18E4C0C6161AC86000365A3A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E4C0C7161AC86000365A3A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E4C0C9161AC86000365A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E4C0CA161AC86000365A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E4C0CC161AC86000365A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UiSearchBar/UiSearchBar-Prefix.pch";
+				INFOPLIST_FILE = "UiSearchBar/UiSearchBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18E4C0CD161AC86000365A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UiSearchBar/UiSearchBar-Prefix.pch";
+				INFOPLIST_FILE = "UiSearchBar/UiSearchBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E4C0A7161AC85F00365A3A /* Build configuration list for PBXProject "UiSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E4C0C9161AC86000365A3A /* Debug */,
+				18E4C0CA161AC86000365A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E4C0CB161AC86000365A3A /* Build configuration list for PBXNativeTarget "UiSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E4C0CC161AC86000365A3A /* Debug */,
+				18E4C0CD161AC86000365A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E4C0A4161AC85F00365A3A /* Project object */;
+}

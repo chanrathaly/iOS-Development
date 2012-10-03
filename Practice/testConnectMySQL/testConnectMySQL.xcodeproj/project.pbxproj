@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E0C75316085283002A7868 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0C75216085283002A7868 /* UIKit.framework */; };
+		18E0C75516085283002A7868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0C75416085283002A7868 /* Foundation.framework */; };
+		18E0C75716085283002A7868 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0C75616085283002A7868 /* CoreGraphics.framework */; };
+		18E0C75D16085283002A7868 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E0C75B16085283002A7868 /* InfoPlist.strings */; };
+		18E0C75F16085283002A7868 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0C75E16085283002A7868 /* main.m */; };
+		18E0C76316085283002A7868 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0C76216085283002A7868 /* AppDelegate.m */; };
+		18E0C76616085283002A7868 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E0C76416085283002A7868 /* MainStoryboard.storyboard */; };
+		18E0C76916085283002A7868 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0C76816085283002A7868 /* ViewController.m */; };
+		18E0C7921608795B002A7868 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0C7911608795B002A7868 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18E0C74E16085283002A7868 /* testConnectMySQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testConnectMySQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E0C75216085283002A7868 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18E0C75416085283002A7868 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18E0C75616085283002A7868 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18E0C75A16085283002A7868 /* testConnectMySQL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testConnectMySQL-Info.plist"; sourceTree = "<group>"; };
+		18E0C75C16085283002A7868 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18E0C75E16085283002A7868 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E0C76016085283002A7868 /* testConnectMySQL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testConnectMySQL-Prefix.pch"; sourceTree = "<group>"; };
+		18E0C76116085283002A7868 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E0C76216085283002A7868 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E0C76516085283002A7868 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		18E0C76716085283002A7868 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E0C76816085283002A7868 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E0C7901608795B002A7868 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		18E0C7911608795B002A7868 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E0C74B16085283002A7868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0C75316085283002A7868 /* UIKit.framework in Frameworks */,
+				18E0C75516085283002A7868 /* Foundation.framework in Frameworks */,
+				18E0C75716085283002A7868 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E0C74316085283002A7868 = {
+			isa = PBXGroup;
+			children = (
+				18E0C75816085283002A7868 /* testConnectMySQL */,
+				18E0C75116085283002A7868 /* Frameworks */,
+				18E0C74F16085283002A7868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E0C74F16085283002A7868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E0C74E16085283002A7868 /* testConnectMySQL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E0C75116085283002A7868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E0C75216085283002A7868 /* UIKit.framework */,
+				18E0C75416085283002A7868 /* Foundation.framework */,
+				18E0C75616085283002A7868 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18E0C75816085283002A7868 /* testConnectMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				18E0C76116085283002A7868 /* AppDelegate.h */,
+				18E0C76216085283002A7868 /* AppDelegate.m */,
+				18E0C76416085283002A7868 /* MainStoryboard.storyboard */,
+				18E0C76716085283002A7868 /* ViewController.h */,
+				18E0C76816085283002A7868 /* ViewController.m */,
+				18E0C75916085283002A7868 /* Supporting Files */,
+				18E0C7901608795B002A7868 /* SecondViewController.h */,
+				18E0C7911608795B002A7868 /* SecondViewController.m */,
+			);
+			path = testConnectMySQL;
+			sourceTree = "<group>";
+		};
+		18E0C75916085283002A7868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E0C75A16085283002A7868 /* testConnectMySQL-Info.plist */,
+				18E0C75B16085283002A7868 /* InfoPlist.strings */,
+				18E0C75E16085283002A7868 /* main.m */,
+				18E0C76016085283002A7868 /* testConnectMySQL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E0C74D16085283002A7868 /* testConnectMySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E0C76C16085283002A7868 /* Build configuration list for PBXNativeTarget "testConnectMySQL" */;
+			buildPhases = (
+				18E0C74A16085283002A7868 /* Sources */,
+				18E0C74B16085283002A7868 /* Frameworks */,
+				18E0C74C16085283002A7868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testConnectMySQL;
+			productName = testConnectMySQL;
+			productReference = 18E0C74E16085283002A7868 /* testConnectMySQL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E0C74516085283002A7868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = 18E0C74816085283002A7868 /* Build configuration list for PBXProject "testConnectMySQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18E0C74316085283002A7868;
+			productRefGroup = 18E0C74F16085283002A7868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E0C74D16085283002A7868 /* testConnectMySQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E0C74C16085283002A7868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0C75D16085283002A7868 /* InfoPlist.strings in Resources */,
+				18E0C76616085283002A7868 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E0C74A16085283002A7868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0C75F16085283002A7868 /* main.m in Sources */,
+				18E0C76316085283002A7868 /* AppDelegate.m in Sources */,
+				18E0C76916085283002A7868 /* ViewController.m in Sources */,
+				18E0C7921608795B002A7868 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E0C75B16085283002A7868 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E0C75C16085283002A7868 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18E0C76416085283002A7868 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E0C76516085283002A7868 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E0C76A16085283002A7868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E0C76B16085283002A7868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E0C76D16085283002A7868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testConnectMySQL/testConnectMySQL-Prefix.pch";
+				INFOPLIST_FILE = "testConnectMySQL/testConnectMySQL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18E0C76E16085283002A7868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testConnectMySQL/testConnectMySQL-Prefix.pch";
+				INFOPLIST_FILE = "testConnectMySQL/testConnectMySQL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E0C74816085283002A7868 /* Build configuration list for PBXProject "testConnectMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E0C76A16085283002A7868 /* Debug */,
+				18E0C76B16085283002A7868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E0C76C16085283002A7868 /* Build configuration list for PBXNativeTarget "testConnectMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E0C76D16085283002A7868 /* Debug */,
+				18E0C76E16085283002A7868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E0C74516085283002A7868 /* Project object */;
+}
